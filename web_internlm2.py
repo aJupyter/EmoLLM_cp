@@ -24,7 +24,7 @@ from openxlab.model import download
 
 logger = logging.get_logger(__name__)
 
-download(model_repo='jujimeizuo/EmoLLM_Model', 
+download(model_repo='ajupyter/EmoLLM_internlm2_7b_full', 
         output='model')
 
 @dataclass
